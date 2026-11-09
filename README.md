@@ -28,7 +28,7 @@ from parser import load_instance
 from validation import validate_instance
 
 # Load benchmark instance 'ft06' from the data file
-jsp = load_instance("]ata/jobshop1.txt", "ft06")
+jsp = load_instance("Data/jobshop1.txt", "ft06")
 
 # Validate structural integrity
 errors = validate_instance(jsp)
