@@ -3,10 +3,11 @@ from models import Operation, Job, JSPInstance
 from schedule import ScheduledOperation, Schedule
 from validation import validate_schedule, is_valid, validate_instance
 from parser import load_instance
+from pathlib import Path
 
 class TestValidator(unittest.TestCase):
     
-    FILE_PATH = "Data/jobshop1.txt"
+    FILE_PATH = str(Path(__file__).resolve().parent.parent / "Data" / "jobshop1.txt")
 
     def setUp(self):
         """Set up the sample plant instance (3 jobs, 3 machines) from image example."""

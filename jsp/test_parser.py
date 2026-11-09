@@ -1,10 +1,11 @@
 import unittest
 from parser import load_instance
+from pathlib import Path
+
 
 class TestJSPParser(unittest.TestCase):
     
-    # Path to the benchmarks file (make sure it matches your file location)
-    FILE_PATH = "Data/jobshop1.txt"
+    FILE_PATH = str(Path(__file__).resolve().parent.parent / "Data" / "jobshop1.txt")
 
     def test_ft06_specifics(self):
         """Detailed test for ft06 (dimensions, first and last operations)"""
