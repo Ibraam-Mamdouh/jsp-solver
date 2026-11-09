@@ -1,6 +1,6 @@
 import unittest
 from dataclasses import FrozenInstanceError
-from schedule import ScheduledOperation, Schedule
+from jsp.schedule import ScheduledOperation, Schedule
 
 class TestSchedule(unittest.TestCase):
     def test_scheduled_operation_creation_and_duration(self):

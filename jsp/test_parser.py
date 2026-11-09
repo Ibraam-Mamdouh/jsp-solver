@@ -1,5 +1,5 @@
 import unittest
-from parser import load_instance
+from jsp.parser import load_instance
 from pathlib import Path
 
 

@@ -1,8 +1,8 @@
 import unittest
-from models import Operation, Job, JSPInstance
-from schedule import ScheduledOperation, Schedule
-from validation import validate_schedule, is_valid, validate_instance
-from parser import load_instance
+from jsp.models import Operation, Job, JSPInstance
+from jsp.schedule import ScheduledOperation, Schedule
+from jsp.validation import validate_schedule, is_valid, validate_instance
+from jsp.parser import load_instance
 from pathlib import Path
 
 class TestValidator(unittest.TestCase):

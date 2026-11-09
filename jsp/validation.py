@@ -1,5 +1,5 @@
-from models import JSPInstance
-from schedule import Schedule
+from jsp.models import JSPInstance
+from jsp.schedule import Schedule
 
 def validate_instance(instance: JSPInstance) -> list[str]:
     """

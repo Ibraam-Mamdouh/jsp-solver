@@ -1,4 +1,4 @@
-from models import Operation, Job, JSPInstance
+from jsp.models import Operation, Job, JSPInstance
 
 def load_instance(path: str, name: str) -> JSPInstance:
     try:
