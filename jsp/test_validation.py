@@ -6,7 +6,7 @@ from parser import load_instance
 
 class TestValidator(unittest.TestCase):
     
-    FILE_PATH = "data/jobshop1.txt"
+    FILE_PATH = "Data/jobshop1.txt"
 
     def setUp(self):
         """Set up the sample plant instance (3 jobs, 3 machines) from image example."""
