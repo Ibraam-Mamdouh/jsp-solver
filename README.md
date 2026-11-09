@@ -24,11 +24,11 @@ The framework strictly enforces four core constraints:
 
 ### Loading an Instance and Validating It
 ```python
-from jsp.parser import load_instance
-from jsp.validation import validate_instance
+from parser import load_instance
+from validation import validate_instance
 
 # Load benchmark instance 'ft06' from the data file
-jsp = load_instance("data/jobshop1.txt", "ft06")
+jsp = load_instance("]ata/jobshop1.txt", "ft06")
 
 # Validate structural integrity
 errors = validate_instance(jsp)
